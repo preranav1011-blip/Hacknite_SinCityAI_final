@@ -37,7 +37,7 @@ This project is built as a decoupled Full-Stack Web Application:
 5. Install dependencies: `pip install -r requirements.txt`
 6. Edit `.env` file and insert your Groq API Key: `GROQ_API_KEY="your-key-here"`
 7. Initialize the Vector Database: `python services/rag.py`
-8. Start the FastAPI server: `uvicorn main:app --reload`
+8. Start the FastAPI server: `uvicorn main:app --reload --reload-exclude venv`
 (The API will be available at `http://localhost:8000`)
 
 ### 2. Frontend Setup
