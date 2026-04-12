@@ -1,6 +1,6 @@
 # SinCity AI: Intelligent Vegas Trip Optimizer
 
-## Contributers
+## Contributors
 
 Jiya Merja (BA2025016)
 Prerana Kurra (BA2025021)
