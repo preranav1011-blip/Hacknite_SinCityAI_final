@@ -2,7 +2,7 @@
 
 ## Contributors
 
-Jiya Merja (BA2025016)
+Jiya Merja (BA2025016)<br>
 Prerana Kurra (BA2025021)
 
 ## Problem Statement
