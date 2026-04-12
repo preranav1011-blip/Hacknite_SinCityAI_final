@@ -1,5 +1,10 @@
 # SinCity AI: Intelligent Vegas Trip Optimizer
 
+## Contributers
+
+Jiya Merja (BA2025016)
+Prerana Kurra (BA2025021)
+
 ## Problem Statement
 
 Planning a trip to Las Vegas can be overwhelming. There are thousands of hotels, shows, dining options, and nightlife venues, making it incredibly difficult to optimize a trip that strictly adheres to a fixed budget and duration while catering to specific interests.
