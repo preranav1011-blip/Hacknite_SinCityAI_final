@@ -29,22 +29,28 @@ This project is built as a decoupled Full-Stack Web Application:
 
 ### 1. Backend Setup
 1. Navigate to `/backend`.
-2. Create a virtual environment: `python -m venv venv`
-`py 3.10 -m venv venv` worked better
-3. Activate it:
-   - Windows: `venv\Scripts\activate`
+2. Run `winget install Python.Python.3.10`
+3. Create a virtual environment: `py -3.10 -m venv venv` 
+4. Activate it:
+   - Windows: `venv\Scripts\Activate`
    - Mac/Linux: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Edit `.env` file and insert your Groq API Key: `GROQ_API_KEY="your-key-here"`
-6. Initialize the Vector Database: `python services/rag.py`
-7. Start the FastAPI server: `uvicorn main:app --reload`
+5. Install dependencies: `pip install -r requirements.txt`
+6. Edit `.env` file and insert your Groq API Key: `GROQ_API_KEY="your-key-here"`
+7. Initialize the Vector Database: `python services/rag.py`
+8. Start the FastAPI server: `uvicorn main:app --reload`
 (The API will be available at `http://localhost:8000`)
 
 ### 2. Frontend Setup
 1. Navigate to `/frontend`.
-2. Install Node dependencies: `npm install`
-3. Start the Vite development server: `npm run dev`
+2. Run `winget install OpenJS.NodeJS.LTS`
+3. Install Node dependencies: `npm install`
+4. Start the Vite development server: `npm run dev`
 (The UI will be available at `http://localhost:5173`)
+
+### 3. Environment Variables
+Create a .env file inside the backend folder and add your own API key:
+GROQ_API_KEY=your_groq_api_key_here
+You can get a free API key from: https://console.groq.com/
 
 ## Features
 - **Intelligent RAG Retrieval**: Dynamically fetches the most relevant hotels and clubs directly related to user inputs.
