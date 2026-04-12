@@ -35,7 +35,9 @@ This project is built as a decoupled Full-Stack Web Application:
    - Windows: `venv\Scripts\Activate`
    - Mac/Linux: `source venv/bin/activate`
 5. Install dependencies: `python -m pip install -r requirements.txt`
-6. Edit `.env` file and insert your Groq API Key: `GROQ_API_KEY="your-key-here"`
+6. ### Environment Variables
+   Create a .env file inside the backend folder and add your own API key: GROQ_API_KEY=your_groq_api_key_here
+   You can get a free API key from: https://console.groq.com/
 7. Initialize the Vector Database: `python services/rag.py`
 8. Start the FastAPI server: `uvicorn main:app --reload --reload-exclude venv`
 (The API will be available at `http://localhost:8000`)
@@ -47,10 +49,6 @@ This project is built as a decoupled Full-Stack Web Application:
 4. Start the Vite development server: `npm run dev`
 (The UI will be available at `http://localhost:5173`)
 
-### 3. Environment Variables
-Create a .env file inside the backend folder and add your own API key:
-GROQ_API_KEY=your_groq_api_key_here
-You can get a free API key from: https://console.groq.com/
 
 ## Features
 - **Intelligent RAG Retrieval**: Dynamically fetches the most relevant hotels and clubs directly related to user inputs.
