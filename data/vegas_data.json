@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Bellagio Hotel and Casino",
+    "type": "Hotel & Casino",
+    "cost": 350,
+    "description": "A luxury hotel and casino on the Las Vegas Strip with elegant rooms, a world-class casino, and the famous Bellagio Fountains. Great for high budgets and luxury stays."
+  },
+  {
+    "id": "2",
+    "name": "The Venetian Resort",
+    "type": "Hotel & Casino",
+    "cost": 300,
+    "description": "An Italian-themed luxury hotel featuring gondola rides, premium shopping, and an expansive casino. Excellent for couples and luxury seekers."
+  },
+  {
+    "id": "3",
+    "name": "Flamingo Las Vegas",
+    "type": "Hotel & Casino",
+    "cost": 100,
+    "description": "A classic, vibrant pink hotel in the center of the Strip. Offers a great pool and affordable stays for those on a tighter budget."
+  },
+  {
+    "id": "4",
+    "name": "MGM Grand",
+    "type": "Hotel & Casino",
+    "cost": 150,
+    "description": "One of the largest hotels in the world, featuring a massive casino, multiple pools, and an arena. Good for mid-to-high budgets and entertainment seekers."
+  },
+  {
+    "id": "5",
+    "name": "O by Cirque du Soleil",
+    "type": "Show",
+    "cost": 180,
+    "description": "A breathtaking aquatic-themed production taking place inside, above, and on water at the Bellagio. Perfect for theater and art lovers."
+  },
+  {
+    "id": "6",
+    "name": "David Copperfield",
+    "type": "Show",
+    "cost": 120,
+    "description": "Legendary illusionist performing mind-bending magic tricks at the MGM Grand. Great for families and magic fans."
+  },
+  {
+    "id": "7",
+    "name": "XS Nightclub",
+    "type": "Nightlife",
+    "cost": 100,
+    "description": "An opulent, upscale club at Encore featuring top DJs, indoor-outdoor spaces, and a massive pool. Best for high-energy nightlife."
+  },
+  {
+    "id": "8",
+    "name": "Omnia Nightclub",
+    "type": "Nightlife",
+    "cost": 80,
+    "description": "A huge, multi-level club at Caesars Palace with a famous kinetic chandelier. Must-visit for EDM fans and party-goers."
+  },
+  {
+    "id": "9",
+    "name": "Gordon Ramsay Hell's Kitchen",
+    "type": "Food",
+    "cost": 120,
+    "description": "Famous restaurant inspired by the TV show, serving signature Beef Wellington and Sticky Toffee Pudding. High-end dining experience."
+  },
+  {
+    "id": "10",
+    "name": "In-N-Out Burger (LINQ Promenade)",
+    "type": "Food",
+    "cost": 15,
+    "description": "Iconic fast-food spot offering affordable, fresh burgers and fries right on the Strip."
+  },
+  {
+    "id": "11",
+    "name": "Fremont Street Experience",
+    "type": "Activity",
+    "cost": 0,
+    "description": "A lively pedestrian mall in Downtown Las Vegas featuring free light shows, zip-lining, and street performers. Great for all budgets."
+  },
+  {
+    "id": "12",
+    "name": "High Roller Observation Wheel",
+    "type": "Activity",
+    "cost": 35,
+    "description": "A 550-foot tall Ferris wheel offering fantastic panoramic views of the Strip, especially beautiful at night."
+  },
+  {
+    "id": "13",
+    "name": "Bacchanal Buffet",
+    "type": "Food",
+    "cost": 85,
+    "description": "The largest and most lavish buffet in Vegas, located at Caesars Palace, featuring hundreds of dishes from around the world."
+  },
+  {
+    "id": "14",
+    "name": "Aria Resort and Casino",
+    "type": "Hotel & Casino",
+    "cost": 280,
+    "description": "Modern, sleek, and technologically advanced hotel offering fine dining and an upscale casino environment."
+  },
+  {
+    "id": "15",
+    "name": "The Neon Museum",
+    "type": "Activity",
+    "cost": 30,
+    "description": "An outdoor museum showcasing vintage, retired neon signs from famous old Vegas casinos. Excellent for photos and history."
+  },
+  {
+    "id": "16",
+    "name": "Absinthe",
+    "type": "Show",
+    "cost": 150,
+    "description": "An adults-only, highly interactive comedy and acrobatics show hosted in a tent outside Caesars Palace. Hilarious and raunchy."
+  },
+  {
+    "id": "17",
+    "name": "Eiffel Tower Viewing Deck",
+    "type": "Activity",
+    "cost": 25,
+    "description": "A half-scale replica of the Eiffel Tower providing romantic, elevated views of the Bellagio fountains and the Strip."
+  },
+  {
+    "id": "18",
+    "name": "Hash House A Go Go",
+    "type": "Food",
+    "cost": 35,
+    "description": "Famous for massive, twisted farm-food breakfasts. Huge portions perfect for sharing and recovering from a long night out."
+  },
+  {
+    "id": "19",
+    "name": "Hakkasan Nightclub",
+    "type": "Nightlife",
+    "cost": 90,
+    "description": "A sprawling, multi-level club and restaurant at MGM Grand, regularly hosting world-renowned DJs."
+  },
+  {
+    "id": "20",
+    "name": "Circus Circus",
+    "type": "Hotel & Casino",
+    "cost": 60,
+    "description": "A budget-friendly hotel featuring an indoor amusement park (Adventuredome) and free circus acts. Very family-oriented."
+  }
+]
