@@ -42,9 +42,8 @@ function App() {
         setError(null)
         setItinerary(null)
         setAlternatives([])
-        const baseUrl = import.meta.env.VITE_API_URL || "";
         try {
-            const res = await fetch(`${baseUrl}/api/generate`, {
+            const res = await fetch("/api/generate", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ budget, days, interests })
@@ -79,8 +78,7 @@ function App() {
             });
 
             const remaining = budget - itinerary.total_cost;
-            const baseUrl = import.meta.env.VITE_API_URL || "";
-            const res = await fetch(`${baseUrl}/api/alternatives`, {
+            const res = await fetch("/api/alternatives", {
                 method: "POST", headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ remaining_budget: remaining, interests, current_places: currentPlaces })
             });
