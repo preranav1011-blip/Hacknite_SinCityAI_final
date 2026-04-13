@@ -54,3 +54,4 @@ This project is built as a decoupled Full-Stack Web Application:
 - **Intelligent RAG Retrieval**: Dynamically fetches the most relevant hotels and clubs directly related to user inputs.
 - **Explainable AI**: The LLM justifies its decisions on cost and schedule distribution.
 - **Budget Guardian**: Built-in backend systems verify that the generated trip strictly conforms to user financial constraints.
+
